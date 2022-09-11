@@ -1,24 +1,23 @@
 #include <stdio.h>
 
 /**
-* main - print the string in the print function
+* main - print the string in the put function
 *
-* Description: using the main function
-* this program prints "Programming is like building a multilingual puzzle
-* Return: 0
+* Description: using trhe main function
+* this program prints "Programming is like building a multilingual npuzzl* Return: 0
 */
 int main(void)
 {
 	char c;
 	int i;
 	long li;
-	long long lli;
+	long long lii;
 	float f;
 
-	printf("int: %ld byte(s)\n", sizeof(c));
-	printf("int: %ld byte(s)\n", sizeof(i));
-	printf("long int: %ld byte(s)\n", sizeof(li));
-	printf("long long int: %ld byte(s)\n", sizeof(lli));
-	printf("float: %ld byte(s)\n", sizeof(f));
+	printf("Size of char: %ld byte(s)\n", sizeof(c));
+	printf("Size of an int: %ld byte(s)\n", sizeof(i));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(li));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(lli));
+	printf("Size of a float: %ld byte(s)\n", sizeof(f));
 	return (0);
 }
