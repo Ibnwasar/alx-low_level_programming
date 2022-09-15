@@ -1,6 +1,9 @@
 #include "main.h"
 /**
- *Return: 0
+ * jack_bauer - func that prints every minutes
+ * n from 00:00 to 23:59, min loops
+ * and resets mins
+ * Return: 0
  */
 void jack_bauer(void)
 {
