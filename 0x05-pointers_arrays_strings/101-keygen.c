@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -24,7 +25,7 @@ while (sum < 2772)
 r = rand() % 10;
 key[i] = decode[r];
 sum += key[i];
-i++
+i++;
 }
 r = 2772 - sum;
 key[i] = r;
