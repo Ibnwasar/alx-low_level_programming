@@ -4,7 +4,7 @@
 
 /**
 *main - entry point
-*Description: creates a random key for program 101-crackme
+*Description: creates a random key for program 101-crackme.
 *Return: always 0
 */
 int main(void)
@@ -21,7 +21,7 @@ srand(time(NULL));
 
 while (sum < 2772)
 {
-r = rand() % 10;
+r = rand() % 10;i
 key[i] = decode[r];
 sum += key[i];
 i++;
