@@ -17,12 +17,12 @@ for (i = 0; s[i]; i++)
 length++;
 }
 
-count = length:
+count = length;
 
 start_c = s;
 end_c = s;
 
-for (i = 0: i < count - 1; i++)
+for (i = 0; i < count - 1; i++)
 {
 end_c++;
 }
