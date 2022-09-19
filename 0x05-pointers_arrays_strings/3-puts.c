@@ -1,12 +1,15 @@
 #include "main.h"
 /**
-*_puts - prints a string
-*@str: A pointer to an int that will be changed
-*
-*Return: void which means our answer is correct
+*_puts - function that prints a string, followed by a new line, to stdout
+*@str: pointer type char
+*Return: Always 0 (Success)
 */
-
-void d _pu:(char *str)
+void _puts(char *str)
 {
-char **C'
-int:wq
+for (; *str != '\0';)
+{
+_putchar(*str);
+str++;
+}
+_putchar('\n');
+}
