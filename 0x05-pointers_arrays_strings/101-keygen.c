@@ -4,7 +4,7 @@
 
 /**
 *main - entry point
-*Description: creates a random key for program 101-keygen
+*Description: creates a random key for program 101-crackme
 *Return: always 0
 */
 int main(void)
