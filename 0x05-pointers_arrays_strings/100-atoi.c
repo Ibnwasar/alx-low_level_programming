@@ -13,7 +13,7 @@ sign = 1;
 i = 0;
 number = 0;
 
-while((s[i] < '0' || s[i] > '9') && (s[i] != '\0'))
+while ((s[i] < '0' || s[i] > '9') && (s[i] != '\0'))
 {
 if (s[i] == '-')
 sign *= -1;
@@ -24,5 +24,5 @@ while ((s[i] >= '0') && (s[i] <= '9'))
 number = number * 10 + (s[i] - '0');
 i++;
 }
-return (number * sign);
+return (number *sign);
 }
