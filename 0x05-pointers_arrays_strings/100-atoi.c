@@ -4,13 +4,23 @@
 *@arr: String convert to int
 *Return: Value of converted number
 */
-int _atoi(char *arr)
+int _atoi(char *s)
 {
-int i = 0, convert = 0;
-for (i = 0; arr[i] != '\0'; ++i)
-{
-convert = convert * 10 + arr[i] - '0';
+int i, sign;
+unsigned int number;
+sign = 1;
+int i = 0; 
+number = 0;
+while ((s[i] < '0' || s[i] > '9') && (s[i] != '\0'))
+{ 
+if (s[i] == '-')
+sign *= -1;
+i++
 }
-
-return (convert);
+while ((s[i] >= '0') && (s[i] <= '9'))
+{
+number = number * 10 + (s[i] - '0');
+i++;
+}
+return (number * sign);
 }
