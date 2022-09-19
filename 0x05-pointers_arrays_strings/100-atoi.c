@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * -atoi - function that convert string to int
-*@arr: String convert to int
+*@s: String convert to int
 *Return: Value of converted number
 */
 int _atoi(char *s)
@@ -9,7 +9,7 @@ int _atoi(char *s)
 int i, sign;
 unsigned int number;
 sign = 1;
-int i = 0; 
+i = 0; 
 number = 0;
 while ((s[i] < '0' || s[i] > '9') && (s[i] != '\0'))
 { 
