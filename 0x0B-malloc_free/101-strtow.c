@@ -26,7 +26,6 @@ int _wcount(char *sw)
 	}
 	return (wc);
 }
-
 /**
  * _trspace - Moves adress to remove trailig whitespaces
  * @st: string
@@ -78,9 +77,8 @@ char **strtow(char *str)
 			s[i][j] = *(ts + l2);
 		s[i][j] = '\0';
 		ts = _trspace(ts + l);
-	
-
-s[i] = NULL;
+	}
+	s[i] = NULL;
 	if (fr == 1)
 	{
 		for (k = 0; k <= i; k++)
